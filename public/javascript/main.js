@@ -6,7 +6,7 @@ $(document).ready(function(){
     var h = $("#canvas").height();
     
     //Lets save the cell width in a variable for easy control
-    var cellWidth = 10;
+    var cellWidth = 5;
     var direction; // direction
     var move;
     var food; // location of food
@@ -54,7 +54,7 @@ $(document).ready(function(){
         for(var i = length-1; i>=0; i--)
         {
             //This will create a horizontal snake starting from the top left
-            snake_array.push({x: 25, y: (w/cellWidth) - i });
+            snake_array.push({x: ((w/cellWidth)/2) - 1 , y: (w/cellWidth) - i });
         }
     }
     
