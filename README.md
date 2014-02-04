@@ -1,4 +1,6 @@
-v.elegans
-=========
+snake
+=====
 
-Virtual elegans
+A simple game of snake.
+
+Learned from the code created by: @thecodeplayer

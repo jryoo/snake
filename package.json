@@ -1,6 +1,6 @@
 {
-  "name": "v.elegans",
-  "description": "virtual elegans",
+  "name": "snake",
+  "description": "a game of snake",
   "version": "0.0.1",
   "private": true,
   "engines": {
